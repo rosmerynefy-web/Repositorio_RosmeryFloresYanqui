@@ -29,7 +29,7 @@ System.out.print("Ingresar compra4:");
 compra4=lectura.nextDouble();
 //proceso de datos
 tc=compra1+compra2+compra3+compra4;
-pc=tc/4;
+pc=tc/5;
 //salida de datos
 System.out.println("La suma total es:"+tc);
 System.out.println("El promedio de compras es:"+pc);
