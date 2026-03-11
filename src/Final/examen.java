@@ -14,7 +14,7 @@ public class examen {
 public static void main(String[] args){
 //declarando variables
 String cliente;
-double compra1,compra2,compra3,tc,pc;
+double compra1,compra2,compra3,compra4,tc,pc;
 Scanner lectura=new Scanner(System.in);
 //entrada de datos
 System.out.print("Ingresar nombre del cliente:");
@@ -25,9 +25,11 @@ System.out.print("Ingresar compra2:");
 compra2=lectura.nextDouble();
 System.out.print("Ingresar compra3:");
 compra3=lectura.nextDouble();
+System.out.print("Ingresar compra4:");
+compra4=lectura.nextDouble();
 //proceso de datos
-tc=compra1+compra2+compra3;
-pc=tc/3;
+tc=compra1+compra2+compra3+compra4;
+pc=tc/4;
 //salida de datos
 System.out.println("La suma total es:"+tc);
 System.out.println("El promedio de compras es:"+pc);
